@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../bower_components/Materialize/dist/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="blue lighten-2" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">
+        Frosgrave
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="section">
+      <h2 class="teal-text" id="wizard-title" data-base="Hoja de hechicero">
+      </h2>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs z-depth-1">
+          <li class="tab col s3">
+            <a class="active" href="#wizard">Hechicero</a>
+          </li>
+          <li class="tab col s3">
+            <a href="#aprentice">Aprendiz</a>
+          </li>
+          <li class="tab col s3">
+            <a href="#reserve">Reserva</a>
+          </li>
+          <li class="tab col s3">
+            <a href="#spells">Hechizos</a>
+          </li>
+          <li class="tab col s3">
+            <a href="#soldiers">Soldados</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="wizard" class="col s12">
+        <div class="row">
+          <form class="col s12">
+
+            <div class="section">
+              <h4 class="teal-text">
+                Información básica
+              </h4>
+              <div class="divider">
+              </div>
+
+              <div class="row">
+
+                <div class="input-field col s12">
+                  <input id="wizard-name" type="text" class="validate">
+                  <label for="wizard-name">Nombre de hechicero</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <select>
+                    <option value="" disabled selected>Elegir escuela</option>
+                    <option value="1">Cronomancer</option>
+                    <option value="2">Elementalista</option>
+                    <option value="3">Nigromante</option>
+                  </select>
+                  <label>Escuela de magia</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <select>
+                    <option value="" disabled selected>Elegir nivel</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Nivel</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <select>
+                    <option value="" disabled selected>Elegir salud</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>salud</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <input id="wizard-xperience" type="text" class="validate">
+                  <label for="wizard-xperience">Experiencia</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="section">
+              <h4 class="teal-text">
+                Estadísticas
+              </h4>
+              <div class="divider"></div>
+
+              <div class="row">
+
+                <div class="input-field col m2 s12">
+                  <select>
+                    <option value="" disabled selected>Elegir movimiento</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Movimiento</label>
+                </div>
+
+                <div class="input-field col m2 s12">
+                  <select>
+                    <option value="" disabled selected>Elegir pelea</option>
+                    <option value="1">+ 1</option>
+                    <option value="2">+ 2</option>
+                    <option value="3">+ 3</option>
+                  </select>
+                  <label>Pelea</label>
+                </div>
+
+                <div class="input-field col m2 s12">
+                  <select>
+                    <option value="" disabled selected>Elegir disparo</option>
+                    <option value="1">+ 1</option>
+                    <option value="2">+ 2</option>
+                    <option value="3">+ 3</option>
+                  </select>
+                  <label>Disparo</label>
+                </div>
+
+                <div class="input-field col m2 s12">
+                  <select>
+                    <option value="" disabled selected>Elegir armadura</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Armadura</label>
+                </div>
+
+                <div class="input-field col m2 s12">
+                  <select>
+                    <option value="" disabled selected>Elegir voluntad</option>
+                    <option value="1">+ 1</option>
+                    <option value="2">+ 2</option>
+                    <option value="3">+ 3</option>
+                  </select>
+                  <label>Voluntad</label>
+                </div>
+
+                <div class="input-field col m2 s12">
+                  <select>
+                    <option value="" disabled selected>Elegir salud</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Salud</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="section">
+              <h4 class="teal-text">
+                Información adicional
+              </h4>
+              <div class="divider">
+              </div>
+
+              <div class="row">
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 1</label>
+                </div>
+
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 2</label>
+                </div>
+
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 3</label>
+                </div>
+
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 4</label>
+                </div>
+
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 5</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <textarea id="notes" class="materialize-textarea"></textarea>
+                  <label for="notes">Notas</label>
+                </div>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <div id="aprentice" class="col s12">
+                <div class="row">
+          <form class="col s12">
+
+            <div class="section">
+              <h4 class="teal-text">
+                Información básica
+              </h4>
+              <div class="divider">
+              </div>
+
+              <div class="row">
+
+                <div class="input-field col s12">
+                  <input id="aprentice-name" type="text" class="validate">
+                  <label for="aprentice-name">Nombre de aprendiz</label>
+                </div>
+
+                <div class="input-field col s12">
+                  debo poner la escuela del anterior
+                </div>
+
+                <div class="input-field col s12">
+                  calcular salud en hechicero
+                </div>
+              </div>
+            </div>
+
+            <div class="section">
+              <h4 class="teal-text">
+                Estadísticas
+              </h4>
+              <div class="divider"></div>
+
+              <div class="row">
+
+                <div class="input-field col m2 s12">
+                  calculado
+                </div>
+
+                <div class="input-field col m2 s12">
+                  calculado
+                </div>
+
+                <div class="input-field col m2 s12">
+                  calculado
+                </div>
+
+                <div class="input-field col m2 s12">
+                  calculada
+                </div>
+
+                <div class="input-field col m2 s12">
+                  calculada
+                </div>
+
+                <div class="input-field col m2 s12">
+                  calculada
+                </div>
+              </div>
+            </div>
+
+            <div class="section">
+              <h4 class="teal-text">
+                Información adicional
+              </h4>
+              <div class="divider">
+              </div>
+
+              <div class="row">
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 1</label>
+                </div>
+
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 2</label>
+                </div>
+
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 3</label>
+                </div>
+
+                <div class="input-field col m12">
+                  <select>
+                    <option value="" selected>Ninguno</option>
+                    <option value="1">Bastón</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <label>Item 4</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <textarea id="notes" class="materialize-textarea"></textarea>
+                  <label for="notes">Notas</label>
+                </div>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <div id="reserve" class="col s12">Test 3</div>
+      <div id="spells" class="col s12">Test 4</div>
+      <div id="soldiers" class="col s12">Test 5</div>
+    </div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/Materialize/dist/js/materialize.js"></script>
+  <script src="../js/index.js"></script>
+
+  </body>
+</html>
