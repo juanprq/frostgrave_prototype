@@ -3,8 +3,8 @@ Posibles dependencias
 
 He identificador unas posibles dependencias necesarias para el proyecto:
 
- * gettext(Internacionalización)
  * addict(autenticación) o guardian
+ * scrivener para paginación
  * bower con brunch
 
 Primeros pasos
