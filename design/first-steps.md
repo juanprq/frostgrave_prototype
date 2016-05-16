@@ -43,7 +43,6 @@ Los ítems podrían ser elementos heredables, de los cuales podrían heredar las
  * Others
  
 Diseño de soldados:
-
 ===
 
 El modelo será llamado "Soldiers" y se puede utilizar como base para criaturas (sería necesario pensar en la raza como atributo).
@@ -60,7 +59,6 @@ El modelo será llamado "Soldiers" y se puede utilizar como base para criaturas 
 
 
 Diseño de escuelas de magia:
-
 ===
 
 No se ha decidido el nombre del modelo.
