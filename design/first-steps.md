@@ -31,3 +31,39 @@ El modelo será llamado "Item", tendrá los siguientes campos:
  * vault_only:Boolean (Indicaría si solo se puede poner en la boveda)
  * description:String (Nota de lo que hace)
  * purchase_price:Integer (Precio por el que se compra)
+ * 
+ 
+Los ítems podrían ser elementos heredables, de los cuales podrían heredar las siguientes categorías:
+===
+
+ * Consumables
+ * Weapons
+ * Armours
+ * Scrolls & Grimoires
+ * Others
+ 
+Diseño de soldados:
+El modelo será llamado "Soldiers" y se puede utilizar como base para criaturas (sería necesario pensar en la raza como atributo).
+===
+
+* name: String
+* equipment Map (map de ítems que tiene por defecto)
+* move: int
+* fight: int
+* shoot: int
+* armour: int
+* will: int
+* health: int
+* cost: int (valor de compra)
+
+
+Diseño de escuelas de magia:
+No se ha decidido el nombre del modelo.
+Las escuelas neutrales son aquellas que no se encuentren entre las aliadas y la opuesta.
+===
+
+* name: String
+* Allied Schools: Map
+* Opposite School: String
+
+
