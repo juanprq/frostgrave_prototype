@@ -31,16 +31,8 @@ El modelo será llamado "Item", tendrá los siguientes campos:
  * vault_only:Boolean (Indicaría si solo se puede poner en la boveda)
  * description:String (Nota de lo que hace)
  * purchase_price:Integer (Precio por el que se compra)
- * 
- 
-Los ítems podrían ser elementos heredables, de los cuales podrían heredar las siguientes categorías:
-===
 
- * Consumables
- * Weapons
- * Armours
- * Scrolls & Grimoires
- * Others
+ 
  
 Diseño de soldados:
 ===
